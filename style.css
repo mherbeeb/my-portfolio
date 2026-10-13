@@ -1,0 +1,135 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;   
+  color:white;            
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 50px 0;
+  border-top: 1px solid #dddddd;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+header {
+  border-bottom: 1px solid #dddddd;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav a {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  padding: 60px 0;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1d4ed8;   /* change the button color here */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.skills li {
+  border: 1px solid #dddddd;
+  padding: 6px 14px;
+  border-radius: 5px;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 280px;
+}
+
+.item h3 {
+  margin-bottom: 8px;
+}
+
+.item p {
+  margin-bottom: 10px;
+}
+
+.item a {
+  color: #1d4ed8;
+}
+
+
+.contact-text {
+  margin-bottom: 15px;
+}
+
+footer {
+  padding: 20px ;
+  border-top: 1px solid #dddddd;
+}
